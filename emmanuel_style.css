@@ -205,7 +205,13 @@ body{
     box-shadow: 10px 10px 15px 4px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     margin:0 15px 0 15px;
+    
 }
+
+.movil{
+    width: 0;
+}
+
 
 
 .imagen img{
@@ -281,8 +287,8 @@ body{
 
 
 
-
-
+/*****************************/
+/*****************************/
 /****** @media *****/
 
 @media screen and (max-width: 1040px){
@@ -361,23 +367,6 @@ body{
     }
    
     
-    .card-pastoral{
-        background-image: url(img/tea-time-3240766_1920.jpg);
-        background-size: cover;
-    }
-    
-    .card-alabanza{
-        background-image: url(img/guitar-756326_1920.jpg);
-        background-size: cover;
-    }
-    
-    .card-infantil{
-        background-image: url(img/child-865116_1920.jpg);
-        background-size: cover;
-    }
-    
-    
-    
     
     .ministerios article{
         min-width: 100%;
@@ -385,7 +374,13 @@ body{
         flex-direction: column;
         justify-content: space-around;
         padding: 10px;
+        background-color: rgba(10, 10, 10, 0.5);
+        border-radius: 9%;
+        
+        
     }
+    
+  
     
     .imagen img{
         width: 300px;
@@ -417,8 +412,18 @@ body{
     background: rgba(18, 18, 18, 0.85);  
 }
 
-    
-    
+    .movil{
+        width: 80%;
+        min-width: 360px;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        z-index: -1;
+        box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 9%;
+        
+        
+    }
     
 }
 
