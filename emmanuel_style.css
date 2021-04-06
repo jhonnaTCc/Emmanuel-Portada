@@ -8,6 +8,7 @@ body{
     font-size: 1rem;
     width: 100%; 
     margin: 0;
+    color: rgba(67, 66, 66, 1);
     
 }
 
@@ -132,10 +133,12 @@ body{
 
 .logo .titulo div h1{
     font-size: 50px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .logo .titulo div h3{
     font-size: 25px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .button-unete {
@@ -252,7 +255,7 @@ body{
 
 
 .card-pastoral .mini_button{
-    background: #434242;
+    background: rgba(18, 18, 18, 0.87);
 }
 
 .card-alabanza .mini_button{
@@ -358,6 +361,24 @@ body{
     }
    
     
+    .card-pastoral{
+        background-image: url(tea-time-3240766_1920.jpg);
+        background-size: cover;
+    }
+    
+    .card-alabanza{
+        background-image: url(guitar-756326_1920.jpg);
+        background-size: cover;
+    }
+    
+    .card-infantil{
+        background-image: url(child-865116_1920.jpg);
+        background-size: cover;
+    }
+    
+    
+    
+    
     .ministerios article{
         min-width: 100%;
         min-height: 640px;
@@ -372,16 +393,32 @@ body{
     
     .ministerios div p{
         width: 300px;
+        color: rgba(247, 247, 247, 0.87);
+        text-shadow: 0px 4px 4px rgb(0, 0, 0);
     }
     
     .mini_button {
         width: 300px;
+        box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+        
+        
     }
     
     .mini_button a {
         flex-direction: column;
         margin: auto;
     }
+    
+    .card-alabanza .mini_button{
+    background: rgba(18, 18, 18, 0.85);
+}
+
+.card-infantil .mini_button{
+    background: rgba(18, 18, 18, 0.85);  
+}
+
+    
+    
     
 }
 
